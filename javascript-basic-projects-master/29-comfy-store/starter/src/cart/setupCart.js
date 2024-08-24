@@ -121,7 +121,6 @@ function setupCartFuncionality(){
     //decrease
     if (parent.classList.contains("cart-item-decrease-btn")) {
       const newAmount = decreaseAmount(parentID);
-        console.log(parentID);
 
       if (newAmount === 0) {
         removeItem(parentID)
